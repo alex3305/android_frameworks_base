@@ -346,4 +346,20 @@
         <item>中文 (繁體)</item>
     </string-array>
 
+
+    <!-- Defines the shutdown options shown in the reboot dialog. -->
+    <array name="shutdown_reboot_options" >
+        <item>@string/reboot_reboot</item>
+        <item>@string/reboot_recovery</item>
+        <item>@string/reboot_bootloader</item>
+    </array>
+
+    <string-array name="shutdown_reboot_actions" >
+        <item></item>
+        <item>recovery</item>
+        <item>bootloader</item>	
+    </string-array>
+
+
+
 </resources>
